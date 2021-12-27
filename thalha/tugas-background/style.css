@@ -1,0 +1,319 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1581079949099-ea95c980d186?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGFsZXR0ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+}
+
+.judul{
+    text-align: center;
+    color:darkslategrey;
+    background-color: gold;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+
+.kotak{
+    background-color: purple;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-2{
+    background-color: red;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-3{
+    background-color: green;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-4{
+    background-color: yellow;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-5{
+    background-color: black;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-6{
+    background-color: gray;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-7{
+    background-color: chocolate;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-8{
+    background-color: gold;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-9{
+    background-color: orange;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-10{
+    background-color: maroon;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-11{
+    background-color: silver;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-12{
+    background-color: fuchsia;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-13{
+    background-color: lime;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-14{
+    background-color: gold;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-15{
+    background-color: olive;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-16{
+    background-color: navy;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-17{
+    background-color: blue;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-18{
+    background-color: teal;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-19{
+    background-color: aqua;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-20{
+    background-color: aliceblue;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-21{
+    background-color: #8A2BE2;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-22{
+    background-color: #7FFF00;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-23{
+    background-color: #7CFC00;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-24{
+    background-color: #7B68EE;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-25{
+    background-color: #800000;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-26{
+    background-color: #87CEEB;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-27{
+    background-color: #8B0000;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-28{
+    background-color: #8B008B;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-29{
+    background-color: #8B4513;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-30{
+    background-color: #90EE90;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-31{
+    background-color: #9370DB;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-32{
+    background-color: #9400D3;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-33{
+    background-color: #7FFF00;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-34{
+    background-color: #98FB98;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-35{
+    background-color: #9ACD32;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+.kotak-36{
+    background-color: #A0522D;
+    color: white;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-37{
+    background-color: #A52A2A;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-38{
+    background-color: #A9A9A9;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-39{
+    background-color: #ADD8E6;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.kotak-40{
+    background-color: #ADFF2F;
+    color: black;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.image{
+    background-image: url("https://images.unsplash.com/photo-1634404101266-49c572abcefa?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    margin-bottom:30px;
+
+}
+
+.nama{
+    color: white;
+    margin-left: 10px;
+}
+
+.image-02{
+    background-image: url("https://images.unsplash.com/photo-1634408522327-d493f4dd6fc5?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    margin-bottom:30px;
+
+}
+
+.umur{
+    color: black;
+    margin-left: 10px;
+}
+
+.image-03{
+    background-image: url("https://images.unsplash.com/photo-1634391058723-c125b22f3217?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+    margin-bottom:30px;
+
+}
+
+.asal{
+    color: black;
+    margin-left: 10px;
+}
+
+.image-04{
+    background-image: url("https://images.unsplash.com/photo-1634444220906-22bc3ecac111?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.cita-cita{
+    color: black;
+    margin-left: 10px;
+}
+

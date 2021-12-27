@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+        const name = "Fatra Dinata Shoyo";
+        const firstName = "Fatra";
+        const middleName = "Dinata";
+        const lastName = "Shoyo";
+        const template = `Name : ${firstName} ${middleName} ${lastName}`;
+
+        const lama = "Name : " + firstName + " " + middleName + " " + lastName;
+
+        console.info(template)
+
+        // Expression 
+        const nilai = 90;
+        const template2 = `Name : ${name}, Lulus : ${nilai > 80}`;
+
+        console.info(template2);
+        const multiline = `Nama Saya Fatra
+Sekarang Jadi Santri
+Sering Olahraga Suka Ngoding
+Kalau Malas tidur sih`;
+
+document.writeln("<pre>");
+// document.writeln(multiline);
+document.writeln("</pre>");
+
+    </script>
+</body>
+</html>

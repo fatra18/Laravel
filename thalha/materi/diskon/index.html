@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+    <title>hitung diskon</title>
+    </head>
+<body>
+<form name="hitungdiskon">
+<center>Masukan harga (Rp.)<br>
+<input type="text" name="harga" ></input><br>
+masukan diskon(1-100)<br>
+<input type="text" name="diskon" size="3"></input>%<br>
+<br><input type="button" onclick="hitung()" value="proses"></input>
+<input type="reset" type="reset"></input>
+<br>Harga diskon(Rp.)<br>
+<input type="text" name="hrgdiskon"></input>
+<br>Hasil diskon (Rp.)<br>
+<input type="text" name="hasildiskon"></input>
+</center>
+</form>
+<script type="text/javascript"> 
+    function hitung() {  
+    let harga= parseFloat(document.hitungdiskon.harga.value);  
+    if (isNaN(harga)) {harga=0.0;}  
+    let diskon=parseFloat(document.hitungdiskon.diskon.value);  
+    if (isNaN(diskon)) {diskon=0.0;}  
+    let hargadiskon= harga * diskon / 100;  
+    let hasil = harga - hargadiskon;  
+    document.hitungdiskon.hasildiskon.value= hasil;  
+    document.hitungdiskon.hrgdiskon.value= hargadiskon; 
+}   
+</script>
+</body>
+</html>

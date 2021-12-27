@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Layout dengan Elemen Semantik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?		   
+  family=Zen+Kaku+Gothic+New:wght@300;400&display=swap" rel="stylesheet"> 
+  <style>
+  	body{
+  		font-family: 'Zen Kaku Gothic New', sans-serif;
+
+  	}
+  	
+  	.header{
+  		background-color:violet;	
+  		text-align:center;
+  		padding:7px 0px 7px 0px;
+  		color:white;
+  		position:sticky;
+  		width:100%;
+
+  		
+
+  	}
+  	
+  	nav {
+  		text-align:center;
+  		position:relative;
+  		margin-top:20px;
+
+
+
+  	}
+  	
+  	nav a{
+  		text-decoration:none;
+  		color:black;
+		margin:0px 10px 0px 10px;
+  	}
+  	
+  	
+  	a:nth-child(1){
+  		color:pink;
+  		transition:1s;
+
+  	}
+  	
+  	a:nth-child(1):hover{
+  		color:crimson;
+  	}
+  	
+  	
+  	a:nth-child(2){
+  		color:blue;
+  		transition:1s;
+  	}
+  	
+  	a:nth-child(2):hover{
+  		color:darkblue;
+  	}
+  	
+  	
+  	
+  	a:nth-child(3){
+  		color:green;
+  		transition:1s;
+  	}
+  	a:nth-child(3):hover{
+  		color:darkgreen;
+  	}
+  	
+  	
+  	
+  	a:nth-child(4){
+  		color:yellow;
+  	}
+  	a:nth-child(4):hover{
+  		color:darkorange;
+  	}
+  	
+  	
+  	a:nth-child(5){
+  		color:red;
+  	}
+  	a:nth-child(5):hover{
+  		color:darkred;
+  	}
+  	
+  	main {
+  		background-color:grey;
+  		width:40%;
+  		padding:10px 0px 10px 7px;
+  		margin-top:20px;
+  		margin-left:10px;
+  		border-radius:20px;
+  		transition:2s;
+  	}
+  	
+  	main:hover{
+  	
+  		background-color:black;
+  		width:80%;
+  		
+  	}
+  	
+  	main h3{
+  		margin-left:14px;
+		color:blue;
+  		transition:2s;
+  	}
+  	
+  	main h3:hover{
+  		
+  		color:lightblue;
+  	}
+  	
+  	
+  	main p{
+  		margin-left:14px;
+  		width:80%;
+  		color:white;
+  		transition:2s;
+  	}
+  	
+  	article{
+  		position:absolute;
+  		right:0%;
+  		text-align:right;
+  		background-color:lightblue;
+  		width:40%;
+  		margin:40px 20px 0px 0px;
+  		padding:5px 20px 5px 90px;
+  		border-radius:20px;
+  		transition:2s
+  		
+  	
+  	}
+  	
+  	article:hover{
+  		background-color:crimson;
+  		width:80%;
+  	}
+  	
+  	
+  	article p{
+  		color:white;
+  		
+  	}
+  	
+  	article h3{
+  		color:lime;
+  	
+  	}
+  	
+  	article h3:hover{
+  		color:darkgreen;
+  	}
+  	
+  	
+  	section{
+  		position:absolute;
+  		z-index:2;
+		top:900px;
+		transition:2s;
+  	
+  	}
+  	
+  	section h2{
+  		margin-left:20px;
+  		color:aqua;
+  		transition:2s;
+
+  	}
+  	
+  	section:hover h2{
+  		color:red;
+		margin-left:1100px;
+
+  	}
+  		
+  </style>
+</head>
+
+<body>
+
+ <header class="header">
+ <h1>Materi Semantic</h1>
+ </header>
+ 
+ <nav>
+ <a href="" target="">Instagram</a>
+ <a href="" target="">Facebook</a>
+ <a href="" target="">Whatsapp</a>
+ <a href="" target="">Snapchat</a>
+ <a href="" target="">Path</a>
+ </nav>
+ <hr style="margin-top:20px;">
+ <marquee>Belajar 8</marquee>
+ 
+
+ <main>
+	<h3>Sub-Judul</h3>
+ 	<p>Lorem Ipsum is simply <mark>dummy text of the printing and typesetting industry.
+ 	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</mark>
+ 	when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+ 	It has survived not only five centuries, but also the leap into electronic typesetting,
+ 	remaining essentially unchanged. It was popularised in the 1960s with the release
+ 	of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+ 	publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+ </main>
+ 
+ 
+ <article>
+ 	<h3>Sub-Judul</h3>
+ 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ 	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+ 	when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+ 	It has survived not only five centuries, but also the leap into electronic typesetting,
+ 	remaining essentially unchanged. It was popularised in the 1960s with the release
+ 	of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+ 	publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+ 
+ </article>
+ 
+ <section>
+ 	<h2>Judul Baru</h2>
+ 	
+ 	<hr>
+ </section>
+ 
+ <footer>
+ 	&copy; Copyright Fatra Dinata 2021
+ </footer>
+
+
+ 
+
+</body>
+
+</html>
